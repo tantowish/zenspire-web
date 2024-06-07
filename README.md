@@ -37,13 +37,13 @@ npm install
 npm run dev
 ```
 
-## 🛠️Technologies (Backend)
+## 🛠️Technologies (Landing Page)
 
 **TypeScript** : A statically typed superset of JavaScript used for building scalable and maintainable back-end applications.
 
- **Next.js** : A React framework for building server-side rendered and statically generated web applications with ease.
+**Next.js** : A React framework for building server-side rendered and statically generated web applications with ease.
 
- **Tailwind CSS** : A utility-first CSS framework for creating custom designs rapidly and efficiently.
+**Tailwind CSS** : A utility-first CSS framework for creating custom designs rapidly and efficiently.
 
 
 ## 📁Project Structure
