@@ -46,7 +46,7 @@ npm run dev
 **Tailwind CSS** : A utility-first CSS framework for creating custom designs rapidly and efficiently.
 
 
-## 📁Project Structure
+## 📁Project Structure (Landing Page)
 
 ```
 |-- doc/                # API Documentation folder
@@ -62,6 +62,10 @@ https://github.com/tantowish/zenspire-be
 ## 📱Frontend Application
 
 https://github.com/1langit/Zenspire
+
+## 📱Web Application (Landing page)
+
+https://github.com/tantowish/zenspire-web
 
 ## 🧾License
 
