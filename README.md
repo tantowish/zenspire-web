@@ -63,7 +63,7 @@ https://github.com/tantowish/zenspire-be
 
 https://github.com/1langit/Zenspire
 
-## 📱Web Application (Landing page)
+## 🌐Web Application (Landing page)
 
 https://github.com/tantowish/zenspire-web
 
