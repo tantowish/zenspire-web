@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ✨Zenspire Landing Page✨
 
-## Getting Started
+<div align="center">
+  <a href="https://github.com/tantowish/zenspire-be">
+    <img src="https://raw.githubusercontent.com/tantowish/toshka-images/main/zenspire/mockup%20handphone.png" alt="Logo" width="700" >
+  </a>
+</div>
 
-First, run the development server:
+<div align="center">
+    <a href="" style="text-decoration: none;">
+        Official Website
+    </a>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ℹ️About
+
+Zenspire is a revolutionary mental health companion app that transforms how individuals access mental health care. Zenspire harnesses the power of AI, cloud computing, real-time data, and advanced large language models (LLMs) to deliver instant, personalized support. By making cutting-edge mental health resources universally accessible, Zenspire not only enhances well-being but also champions key Sustainable Development Goals (SDGs). Get ready to redefine your mental wellness journey with Zenspire!
+
+## 🔧Getting started
+
+**Clone**
+
+```
+git clone https://github.com/tantowish/zenspire-web.git
+cd zenspire-web
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Install local dependencies**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Running Service**
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️Technologies (Backend)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**TypeScript** : A statically typed superset of JavaScript used for building scalable and maintainable back-end applications.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ **Next.js** : A React framework for building server-side rendered and statically generated web applications with ease.
 
-## Deploy on Vercel
+ **Tailwind CSS** : A utility-first CSS framework for creating custom designs rapidly and efficiently.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📁Project Structure
+
+```
+|-- doc/                # API Documentation folder
+|-- public/             # Public file
+|-- src/
+|   |-- app/            # Main app logic
+```
+
+## 🗄️Backend Application
+
+https://github.com/tantowish/zenspire-be
+
+## 📱Frontend Application
+
+https://github.com/1langit/Zenspire
+
+## 🧾License
+
+This project is licensed under the. You are free to use, modify, and distribute the code as you see fit.
