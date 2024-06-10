@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/tantowish/zenspire-be">
-    <img src="https://raw.githubusercontent.com/tantowish/toshka-images/main/zenspire/mockup%20handphone.png" alt="Logo" width="700" >
+    <img src="https://raw.githubusercontent.com/tantowish/toshka-images/main/zenspire/mockup%20handphone%202.png" alt="Logo" width="700" >
   </a>
 </div>
 
@@ -45,7 +45,6 @@ npm run dev
 
 **Tailwind CSS** : A utility-first CSS framework for creating custom designs rapidly and efficiently.
 
-
 ## 📁Project Structure
 
 ```
@@ -55,14 +54,24 @@ npm run dev
 |   |-- app/            # Main app logic
 ```
 
-## 🗄️Backend Application
+## 📱Zenspire Application
+
+### 🗄️Backend Application
 
 https://github.com/tantowish/zenspire-be
 
-## 📱Frontend Application
+### 📱Frontend Application
 
 https://github.com/1langit/Zenspire
 
+### 🌐Web Application (Landing page)
+
+https://github.com/tantowish/zenspire-web
+
+### 🎨Figma Design
+
+https://www.figma.com/design/NPBM34I6tqKKPGqMsga6K4/Zenspire?m=dev&node-id=105-260&t=tpaQAzVewqxbzoYl-1
+
 ## 🧾License
 
-This project is licensed under the. You are free to use, modify, and distribute the code as you see fit.
+This project is licensed under the [MIT](https://github.com/tantowish/zenspire-web/blob/main/MIT-LICENSE.txt) License. You are free to use, modify, and distribute the code as you see fit.
