@@ -45,7 +45,7 @@ npm run dev
 
 **Tailwind CSS** : A utility-first CSS framework for creating custom designs rapidly and efficiently.
 
-## 📁Project Structure
+## 📁Project Structure (Landing Page)
 
 ```
 |-- doc/                # API Documentation folder
