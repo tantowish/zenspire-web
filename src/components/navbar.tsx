@@ -81,7 +81,7 @@ const Navbar = () => {
                 ))}
             </div>
             <div className='flex items-center px-4 md:hidden'>
-                <button id='hamburger' name='hamburger' type='button' className={`block absolute right-4`} onClick={handleHamburgerClick}>
+                <button id='hamburger' name='hamburger' type='button' className={`block absolute right-4 ${isActive ?'hamburger-active' :''}`} onClick={handleHamburgerClick}>
                     <span className='w-[30px] h-[2px] my-2 block bg-[#12719C] transition duration-500 ease-out origin-top-left'></span>
                     <span className='w-[30px] h-[2px] my-2 block bg-[#12719C] transition duration-500 ease-out'></span>
                     <span className='w-[30px] h-[2px] my-2 block bg-[#12719C] transition duration-500 ease-out origin-bottom-left'></span>
