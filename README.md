@@ -51,7 +51,7 @@ npm run dev
 |-- public/             # Public file
 |-- src/
 |   |-- app/            # Main app logic
-|   |-- component/      # Components folder
+|   |-- componentS/     # Components folder
 ```
 
 ## 📱Zenspire Application

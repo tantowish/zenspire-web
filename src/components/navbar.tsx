@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import React, { useEffect, useRef, useState } from 'react'
+import { ButtonAlert } from './button-alert'
 
 const Navbar = () => {
   const [isRouting, setisRouting] = useState(false)
@@ -95,16 +96,12 @@ const Navbar = () => {
                         className={`text-[#12719C] hover:font-semibold hover:underline hover:underline-offset-4 transition-all ease-in-out`}
                         href={`#${nav.link}`}>{nav.name}</Link>
                         ))}
-                        <Link className='px-4 py-2 bg-[#12719C] rounded-full text-white hover:bg-[#12709cd7] transition-all text-sm w-fit' key={'unduh'} href={'#unduh'}>
-                            Unduh Aplikasi
-                        </Link>
+                        <ButtonAlert className="px-4 py-2 bg-[#12719C] rounded-full text-white hover:bg-[#12709cd7] transition-all text-sm w-fit" value="Unduh Aplikasi"/>
                     </div>
                 </div>
             </div>
             <div className='hidden md:block'>
-                <Link className='px-4 py-2 bg-[#12719C] rounded-full text-white hover:bg-[#12709cd7] transition-all text-sm' key={'unduh'} href={'#unduh'}>
-                    Unduh Aplikasi
-                </Link>
+                <ButtonAlert className='px-4 py-2 bg-[#12719C] rounded-full text-white hover:bg-[#12709cd7] transition-all text-sm' value="Unduh Aplikasi"/>
             </div>
         </div>
     </nav>
