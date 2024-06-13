@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-    <a href="" style="text-decoration: none;">
+    <a href="https://zenspire.vercel.app/" target="_blank" style="text-decoration: none;">
         Official Website
     </a>
 </div>
