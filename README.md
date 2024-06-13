@@ -48,10 +48,10 @@ npm run dev
 ## 📁Project Structure (Landing Page)
 
 ```
-|-- doc/                # API Documentation folder
 |-- public/             # Public file
 |-- src/
 |   |-- app/            # Main app logic
+|   |-- component/      # Components folder
 ```
 
 ## 📱Zenspire Application
