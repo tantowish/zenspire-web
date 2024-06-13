@@ -33,6 +33,9 @@ export default function Home() {
             <h1 className="text-center text-xl lg:text-2xl font-bold text-[#12719C] mb-4">Apa yang dapat Zenspire tawarkan?</h1>
             <p className="text-center text-[#12719C] text-sm lg:text-md">Cari tau apa yang akan Anda dapatkan dengan Zenspire</p>
           </div>
+          <div className="mt-8 lg:mt-12 flex flex-wrap justify-center">
+            <Image src={'/features.png'} alt="features" loading="lazy" width={300} height={0}/>
+          </div>
         </div>
         <div className="slanted-bg absolute inset-0"></div>
       </section>
