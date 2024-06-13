@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/tantowish/zenspire-be">
-    <img src="https://raw.githubusercontent.com/tantowish/toshka-images/main/zenspire/mockup%20handphone%202.png" alt="Logo" width="700" >
+    <img src="https://raw.githubusercontent.com/tantowish/toshka-images/main/zenspire/zenspire-web.png" alt="Logo" width="700" >
   </a>
 </div>
 
