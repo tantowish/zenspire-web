@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar/>
 
       {/* Hero Section Start */}
-      <section className="px-8 lg:px-24 md:px-16 pt-24 lg:pt-32 pb-16 max-w-7xl mx-auto" id="beranda">
+      <section className="relative z-[10] px-8 lg:px-24 md:px-16 pt-24 lg:pt-32 pb-16 max-w-7xl mx-auto" id="beranda">
         <div className="flex flex-wrap justify-center items-center">
           <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
             <Image src={'/mockup-zenspire.png'} alt="mockup-zenspire" loading="eager" className=" px-8" width={2000} height={500}></Image>
