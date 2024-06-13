@@ -65,7 +65,7 @@ const Navbar = () => {
 
   ]
   return (
-    <nav className='navbar-fixed top-0 w-full z-[10] relative'>
+    <nav className='navbar-fixed top-0 w-full z-[15] relative'>
         <div className='flex flex-wrap justify-between max-w-7xl mx-auto px-8 lg:px-24 md:px-16 py-4 items-center'>
             <div>
                 <Link

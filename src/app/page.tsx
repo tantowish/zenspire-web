@@ -27,7 +27,7 @@ export default function Home() {
 
       {/* Feature Section Start */}
       <section className="relative lg:-mt-8" id="fitur">
-        <div className="px-8 lg:px-24 md:px-16 pt-12 pb-32 lg:pb-64 max-w-7xl mx-auto" >
+        <div className="relative z-[10] px-8 lg:px-24 md:px-16 pt-12 pb-32 lg:pb-64 max-w-7xl mx-auto" >
           <div>
             <h4 className="text-center text-lg lg:text-xl font-bold text-[#1AAD90] mb-4 pt-12">Fitur</h4>
             <h1 className="text-center text-xl lg:text-2xl font-bold text-[#12719C] mb-4">Apa yang dapat Zenspire tawarkan?</h1>
@@ -36,6 +36,12 @@ export default function Home() {
           <div className="mt-8 lg:mt-12 flex flex-wrap justify-center">
             <Image src={'/features.png'} alt="features" loading="lazy" width={300} height={0}/>
           </div>
+        </div>
+        <div className="absolute top-0 max-w-xs z-0">
+          <Image src={'/vue-left.png'} alt="vue left" width={500} height={0}/>
+        </div>
+        <div className="absolute right-0 max-w-xs z-0 -top-1/4">
+          <Image src={'/vue-right.png'} alt="vue right" width={500} height={0}/>
         </div>
         <div className="slanted-bg absolute inset-0"></div>
       </section>
