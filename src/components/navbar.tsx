@@ -7,32 +7,43 @@ import React, { useEffect, useRef, useState } from 'react'
 import { ButtonAlert } from './button-alert'
 
 const Navbar = () => {
-  const [isRouting, setisRouting] = useState(false)
-  const path = usePathname()
-  const [prevPath, setPrevPath] = useState("/")
   const [isActive, setIsActive] = useState(false)
+  const [activeLink, setActiveLink] = useState(-1)
+  const path = usePathname()
 
   const handleHamburgerClick = ()=>{
     setIsActive(!isActive)
   }
 
-  useEffect(()=>{
-      if(prevPath !== path){
-        setIsActive(false);
-        setisRouting(true)
+  useEffect(() => {
+    const handleScroll = () => {
+  
+      const sections = document.querySelectorAll('section');
+  
+      // Check for fully visible sections
+      for (let i = 0; i < sections.length; i++) {
+        const section = sections[i];
+        const sectionTop = section.offsetTop;
+        const sectionBottom = sectionTop + section.offsetHeight;
+  
+        if (window.scrollY + window.innerHeight >= sectionTop && 
+            window.scrollY <= sectionBottom - (section.offsetHeight * 0.2)) {
+          setActiveLink(i);
+          break;
+        }
       }
-  }, [path, prevPath])
-
-  useEffect(()=>{
-      if(isRouting){
-          setPrevPath(path)
-          const timeout = setTimeout(()=>{
-              setisRouting(false)
-          }, 1200)
-
-          return()=>clearTimeout(timeout)
+  
+      // If no section is fully in view (at the end of the page), activate the last link
+      if (window.scrollY + window.innerHeight >= document.body.scrollHeight) { 
+        setActiveLink(3);
       }
-  }, [isRouting])
+    };
+  
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const NavLinks = [
       {
@@ -73,11 +84,10 @@ const Navbar = () => {
                 </Link> 
             </div>
             <div className='hidden md:flex flex-wrap gap-12'>
-                {isRouting}
-                {NavLinks.map((nav)=>(
+                {NavLinks.map((nav, index)=>(
                     <Link
                     key={nav.name}
-                    className={`text-[#12719C] hover:font-semibold hover:underline hover:underline-offset-8 transition-all ease-in-out`}
+                    className={`text-[#12719C] hover:font-semibold hover:underline hover:underline-offset-8 transition-all ease-in-out ${activeLink === index ? 'underline underline-offset-8 font-semibold' : ''}`} // Check if the path *includes* the link
                     href={`#${nav.link}`}>{nav.name}</Link>
                 ))}
             </div>
@@ -89,11 +99,10 @@ const Navbar = () => {
                 </button>
                 <div className={`nav-menu absolute z-[10] py-5 rounded-b-3xl w-full right-0 top-full ${!isActive ? 'hidden' : ''}`}>
                     <div className='flex flex-col gap-3 px-8'>
-                        {isRouting}
-                        {NavLinks.map((nav)=>(
+                        {NavLinks.map((nav, index)=>(
                         <Link
                         key={nav.name}
-                        className={`text-[#12719C] hover:font-semibold hover:underline hover:underline-offset-4 transition-all ease-in-out`}
+                        className={`text-[#12719C] hover:font-semibold hover:underline hover:underline-offset-4 transition-all ease-in-out ${activeLink === index ? 'underline underline-offset-8 font-semibold' : ''}`}
                         href={`#${nav.link}`}>{nav.name}</Link>
                         ))}
                         <ButtonAlert className="px-4 py-2 bg-[#12719C] rounded-full text-white hover:bg-[#12709cd7] transition-all text-sm w-fit" value="Unduh Aplikasi"/>

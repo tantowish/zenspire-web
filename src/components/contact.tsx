@@ -15,10 +15,10 @@ import Link from "next/link";
   
   export function Contact() {
     return (
-      <Footer container>
+      <Footer container id="kontak">
         <div className="w-full max-w-7xl mx-auto">
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-            <div>
+            <div className="mb-8">
               <Link
                   key="beranda"
                   href="#beranda"
