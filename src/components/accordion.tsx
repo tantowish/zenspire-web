@@ -15,7 +15,7 @@ export const Accordion = ({ title, answer }: { title: string, answer: string }) 
             </span>
         </button>
         <div className={`text-slate-600 ${accordionOpen ? 'mt-4' : 'mt-0'}`}>
-            <div ref={contentRef} className={`transition-all duration-300 ease-in-out overflow-hidden text-sm lg:text-md`} style={{ height: accordionOpen ? `${contentRef.current?.scrollHeight}px` : 0 }}>{answer}</div>
+            <div ref={contentRef} className={`transition-all duration-300 ease-in-out overflow-hidden text-sm lg:text-md text-justify`} style={{ height: accordionOpen ? `${contentRef.current?.scrollHeight}px` : 0 }}>{answer}</div>
         </div>
     </div>
   )
