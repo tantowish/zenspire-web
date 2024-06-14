@@ -32,15 +32,43 @@ export default function Home() {
             <h1 className="text-center text-xl lg:text-2xl font-bold text-[#12719C] mb-4">Apa yang dapat Zenspire tawarkan?</h1>
             <p className="text-center text-[#12719C] text-sm lg:text-md">Cari tau apa yang akan Anda dapatkan dengan Zenspire</p>
           </div>
-          <div className="mt-8 lg:mt-12 flex flex-wrap justify-center">
-            <Image src={'/features.png'} alt="features" loading="lazy" width={300} height={0}/>
+          <div className="mt-8 lg:mt-12 flex flex-wrap justify-between">
+            <div className="order-2 md:order-1 w-1/2 md:w-1/3 flex flex-col md:justify-evenly gap-8 md:gap-0 justify-center px-2 md:px-5">
+              <div className="p-2 bg-white rounded-lg shadow-sm hover:-translate-y-3 transition-all duration-300 ease-in-out cursor-default">
+                <p className="text-sm text-[#12719C]">Mulai sesi terapi percakapan secara terpersonalisasi dengan</p>
+                <h6 className="text-lg text-[#12719C] font-semibold">Chatbot Zenia</h6>
+              </div>
+              <div className="p-2 bg-white rounded-lg shadow-sm hover:-translate-y-3 transition-all duration-300 ease-in-out cursor-default">
+                <p className="text-sm text-[#12719C]">Latih dirimu menyampaikan pendapat dan berbagi pengalaman dalam</p>
+                <h6 className="text-lg text-[#12719C] font-semibold">Komunitas</h6>
+              </div>
+              <div className="p-2 bg-white rounded-lg shadow-sm hover:-translate-y-3 transition-all duration-300 ease-in-out cursor-default">
+                <p className="text-sm text-[#12719C]">Tanya dan konsultasi lanjutan di </p>
+                <h6 className="text-lg text-[#12719C] font-semibold">Chat Psikolog</h6>
+              </div>
+            </div>
+            <Image className="mb-5 md:mb-0 order-1 md:order-2 w-full md:w-1/3 hover:scale-105 transition-all duration-300 ease-in-out" src={'/features.png'} alt="features" loading="eager" width={300} height={0}/>
+            <div className="order-3 w-1/2 md:w-1/3 flex flex-col md:justify-evenly px-2 md:px-5 gap-8 md:gap-0 justify-center">
+              <div className="p-2 bg-white rounded-lg shadow-sm hover:-translate-y-3 transition-all duration-300 ease-in-out cursor-default">
+                <p className="text-sm text-[#12719C]">Catat progres kecemasanmu setiap hari dan dapatkan rekomendasi di</p>
+                <h6 className="text-lg text-[#12719C] font-semibold">Jurnal</h6>
+              </div>
+              <div className="p-2 bg-white rounded-lg shadow-sm hover:-translate-y-3 transition-all duration-300 ease-in-out cursor-default">
+                <p className="text-sm text-[#12719C]">Cari dan temukan terapis melalui</p>
+                <h6 className="text-lg text-[#12719C] font-semibold">Klinik Terdekat</h6>
+              </div>
+              <div className="p-2 bg-white rounded-lg shadow-sm hover:-translate-y-3 transition-all duration-300 ease-in-out cursor-default">
+                <p className="text-sm text-[#12719C]">Dapatkan informasi tervalidasi dari psikolog dengan akses</p>
+                <h6 className="text-lg text-[#12719C] font-semibold">Blog</h6>
+              </div>
+            </div>
           </div>
         </div>
         <div className="absolute top-0 max-w-xs z-0">
-          <Image src={'/vue-left.png'} alt="vue left" width={500} height={0}/>
+          <Image src={'/vue-left.png'} loading="lazy" alt="vue left" width={500} height={0}/>
         </div>
         <div className="absolute right-0 max-w-xs z-0 -top-1/4">
-          <Image src={'/vue-right.png'} alt="vue right" width={500} height={0}/>
+          <Image src={'/vue-right.png'} loading="lazy" alt="vue right" width={500} height={0}/>
         </div>
         <div className="slanted-bg absolute inset-0"></div>
       </section>
