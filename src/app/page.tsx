@@ -13,7 +13,7 @@ export default function Home() {
       <section className="relative z-[10] px-8 lg:px-24 md:px-16 pt-24 lg:pt-32 pb-16 max-w-7xl mx-auto" id="beranda">
         <div className="flex flex-wrap justify-center items-center">
           <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
-            <Image src={'/mockup-zenspire.png'} alt="mockup-zenspire" loading="eager" className=" px-8" width={2000} height={500}></Image>
+            <Image src={'/mockup-zenspire.png'} alt="mockup-zenspire" loading="eager" className=" px-8" width={500} height={800} quality={95} />
           </div>
           <div className="w-full lg:w-1/2 flex flex-col gap-6 lg:gap-8">
             <h1 className="text-center lg:text-left text-xl lg:text-3xl font-bold text-[#12719C] leading-7 lg:leading-10 mx-auto">Terapis Anda yang Terpersonalisasi untuk Dukungan Gangguan Kecemasan Sosial</h1>
@@ -47,7 +47,7 @@ export default function Home() {
                 <h6 className="text-lg text-[#12719C] font-semibold">Chat Psikolog</h6>
               </div>
             </div>
-            <Image className="mb-5 md:mb-0 order-1 md:order-2 w-full md:w-1/3 hover:scale-105 transition-all duration-300 ease-in-out" src={'/features.png'} alt="features" loading="eager" width={300} height={0}/>
+            <Image className="mb-5 md:mb-0 order-1 md:order-2 w-full md:w-1/3 hover:scale-105 transition-all duration-300 ease-in-out" src={'/features.png'} alt="features" loading="eager" width={300} height={800} quality={80}/>
             <div className="order-3 w-1/2 md:w-1/3 flex flex-col md:justify-evenly px-2 md:px-5 gap-8 md:gap-0 justify-center">
               <div className="p-2 bg-white rounded-lg shadow-sm hover:-translate-y-3 transition-all duration-300 ease-in-out cursor-default">
                 <p className="text-sm text-[#12719C]">Catat progres kecemasanmu setiap hari dan dapatkan rekomendasi di</p>
