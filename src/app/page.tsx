@@ -3,7 +3,6 @@ import { ButtonAlert } from "@/components/button-alert";
 import { Contact } from "@/components/contact";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (

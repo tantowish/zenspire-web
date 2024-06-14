@@ -20,14 +20,16 @@ export const ButtonAlert = ({className, value}: {className: string, value: strin
     const handleDownload = () => {
         // Create a hidden anchor element
         const link = document.createElement("a");
-        link.href = "/zenspire.apk"; // Path to your PDF file
-        link.download = "zenspire.apk"; // Optional: Specify download filename
-        link.click(); // Trigger the download
-    
-        toast({
-          title: "Berhasil Download Aplikasi",
-          description: "Kamu telah berhasil men-download aplikasi Zenspire, silahkan tunggu proses selesai",
-        });
+        link.href = "/zenspire.apk";
+        link.download = "zenspire.apk";
+        link.click();
+        setTimeout(() => {
+          toast({
+            title: "Berhasil Download Aplikasi",
+            description: "Kamu telah berhasil men-download aplikasi Zenspire, silahkan tunggu proses selesai",
+          });
+        }, 800)
+
       };
   return (
     <>
