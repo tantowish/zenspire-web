@@ -16,7 +16,7 @@ export default function Home() {
             <Image src={'/mockup-zenspire.png'} alt="mockup-zenspire" loading="eager" className="" width={500} height={800} quality={95} />
           </div>
           <div className="w-full lg:w-1/2 flex flex-col gap-4 lg:gap-6">
-            <h1 className="text-center md:text-left text-3xl md:text-5xl md:leading-[1.1] font-bold text-[#12719C] mx-auto">Terapis Anda yang Terpersonalisasi untuk Dukungan Gangguan Kecemasan Sosial</h1>
+            <h1 className="text-center md:text-left text-3xl md:text-heading md:leading-tight font-bold text-[#12719C] mx-auto">Terapis Anda yang Terpersonalisasi untuk Dukungan Gangguan Kecemasan Sosial</h1>
             <p className="text-center lg:text-justify max-w-sm lg:max-w-none mx-auto text-[#12719C] text-base lg:text-lg">Zenspire memberikan perawatan Cognitive Behavioral Therapy yang terpersonalisasi dan dukungan personal. Zenspire menyediakan ruang terapi mandiri secara komprehensif. Dapat diakses kapanpun dan dimanapun tanpa biaya.</p>
             <ButtonAlert className='mx-auto lg:mx-0 px-4 py-2 bg-gradient-to-r from-[#2B9EA1] to-[#12719C] hover:from-[#12719C] hover:to-[#2B9EA1] text-sm md:text-base transition-colors duration-300 rounded-full text-white w-fit' value="Unduh Aplikasi"/>
           </div>
