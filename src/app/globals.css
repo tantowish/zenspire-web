@@ -43,7 +43,7 @@ body{
 
 /* width */
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 8px;
 }
 
 /* Track */
@@ -53,12 +53,12 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0F1957;
+  background: #3f95bd;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #29357E;
+  background: #12719C;
 }
 
 @layer base {

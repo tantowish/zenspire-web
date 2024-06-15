@@ -1,6 +1,7 @@
 import { Accordion } from "@/components/accordion";
 import { ButtonAlert } from "@/components/button-alert";
 import { Contact } from "@/components/contact";
+import { FloatingButton } from "@/components/floating-button";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
 
@@ -92,6 +93,8 @@ export default function Home() {
         <div className="normal-bg absolute inset-0"></div>
       </section>
       {/* FAQ Section End */}
+
+      <FloatingButton targetId="faq"/>
 
       {/* Contact Section Start */}
       <Contact/>
