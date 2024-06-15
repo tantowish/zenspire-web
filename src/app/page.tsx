@@ -14,7 +14,7 @@ export default function Home() {
       <section className="relative z-[10] px-8 lg:px-24 md:px-16 pt-24 lg:pt-32 pb-16 max-w-7xl mx-auto" id="beranda">
         <div className="flex flex-wrap justify-center">
           <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
-            <Image src={'/mockup-zenspire.png'} alt="mockup-zenspire" loading="eager" className="" width={500} height={800} quality={95} />
+            <Image src={'/mockup-zenspire.png'} alt="mockup-zenspire" loading="eager" className="px-8 md:px-0" width={500} height={800} quality={95} />
           </div>
           <div className="w-full lg:w-1/2 flex flex-col gap-4 lg:gap-6">
             <h1 className="text-center md:text-left text-3xl md:text-heading md:leading-tight font-bold text-[#12719C] mx-auto">Terapis Anda yang Terpersonalisasi untuk Dukungan Gangguan Kecemasan Sosial</h1>
