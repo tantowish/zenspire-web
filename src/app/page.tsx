@@ -65,10 +65,10 @@ export default function Home() {
           </div>
         </div>
         <div className="absolute top-0 max-w-xs z-0">
-          <Image src={'/vue-left.png'} loading="lazy" alt="vue left" width={500} height={0}/>
+          <Image src={'/vue-left.png'} loading="lazy" alt="vue left" width={300} height={300} quality={10}/>
         </div>
         <div className="absolute right-0 max-w-xs z-0 top-1/2 md:-top-1/4">
-          <Image src={'/vue-right.png'} loading="lazy" alt="vue right" width={500} height={0}/>
+          <Image src={'/vue-right.png'} loading="lazy" alt="vue right" width={300} height={300} quality={10}/>
         </div>
         <div className="slanted-bg absolute inset-0"></div>
       </section>
